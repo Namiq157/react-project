@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+body {
+  background-color: #121212;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #ff5722;
+  margin-top: 30px;
+  font-size: 36px;
+}
+
+.search-form-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  margin-right: 10px;
+  border: 2px solid #ff5722;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ff5722;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #e64a19;
+}
+
+.movie-list, .selected-movies, .saved-list {
+  background-color: #2c2c2c;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie-list h2, .selected-movies h2, .saved-list h2 {
+  text-align: center;
+  color: #ff5722;
+}
+
+.movie-item, .selected-movie-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+}
+
+.movie-poster, .selected-movie-poster {
+  width: 80px;
+  height: 120px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+
+.movie-item span, .selected-movie-item span {
+  flex-grow: 1;
+  color: #fff;
+}
+
+button {
+  background-color: #ff5722;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+.save-button {
+  display: block;
+  width: 200px;
+  margin: 30px auto;
+  padding: 15px;
+  background-color: #ff5722; 
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.saved-link a {
+  color: #ff5722;
+  text-decoration: none;
+}
+
+.saved-link a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.movie-list, .selected-movies {
+  flex: 1; 
+}
+
+.saved-list {
+  margin-top: 20px;
+  background-color: #333; 
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.saved-list ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.saved-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #444;
+}
+
+.saved-list img {
+  width: 80px;
+  height: 120px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
